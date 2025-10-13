@@ -1,0 +1,244 @@
+:root{
+    --Green-500: hsl(171, 66%, 44%);
+    --Blue-100: hsl(233, 100%, 69%);
+
+    --Gray-700: hsl(210, 10%, 33%);
+    --Gray-500: hsl(201, 11%, 66%);
+
+    --header-grey: rgb(81, 81, 81);
+
+    font-size: 10px;
+}
+
+/* general */
+
+body{
+    font-size: 1.8rem;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1{
+    font-size: 1.9em;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+h3{
+    font-size: 1.4em;
+}
+
+h1, h2, h3{
+    color: var(--header-grey);
+    text-align: center;
+}
+
+p{
+    color: var(--Gray-500);
+    text-align: center;
+    font-size: 1em;
+}
+
+.hero, main{
+    padding: 1.1em;
+}
+
+
+/* hero */
+
+.hero{
+    background-image: url("./images/bg-header-mobile.png");
+}
+
+.hero .logo{
+    margin: 0 auto;
+    padding: 4em;
+}
+
+.hero h1{
+    font-weight: 600;
+
+    margin-bottom: 0.5em;
+}
+
+.hero p{
+    margin-bottom: 3em;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.buttons-container button{
+    padding: 0.7em;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.ios-btn{
+    background-color: var(--Green-500);
+}
+
+.ios-btn:hover{
+    background-color: var(--Green-500);
+}
+
+.ios-btn:active{
+    background-color: hsl(171, 76%, 44%);
+}
+
+.mac-btn{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.mac-btn:hover{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.mac-btn:active{
+    background-color: hsl(233, 100%, 75%);
+}
+
+/* main */
+
+main{
+    padding: 1em;
+}
+
+/* features */
+
+.features h2{
+    margin-bottom: 0.7em;
+}
+
+.features p{
+    margin-bottom: 4em;
+}
+
+.features img{
+    margin-bottom: 2.8em;
+}
+
+.features h3{
+    margin-bottom: 0.5em;
+}
+
+.features{
+    margin-bottom: 13em;
+}
+
+/* access */
+
+.access p{
+    margin-bottom: 4em;
+}
+
+.access img{
+    margin-bottom: 6em;
+}
+
+/* workflow */
+
+.workflow .card *{
+    margin: 0 auto;
+}
+
+.workflow p:first-of-type{
+    margin-bottom: 4em;
+}
+
+.workflow .card img{
+    margin-bottom: 2em;
+}
+
+.workflow .card h3{
+    margin-bottom: 0.8em;
+}
+
+.workflow{
+    margin-bottom: 9em;
+}
+
+/* partners */
+
+.partners img{
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+.partners{
+    margin-bottom: 5em;
+}
+
+/* download */
+
+.download p{
+    margin-bottom: 2.5em;
+}
+
+.download{
+    padding-bottom: 8em;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--Gray-500);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.footer img{
+    width: 4em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.footer-nav{
+    width: 100%;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: var(--Gray-700);
+}
+
+.footer-nav a:active{
+    color: var(--Gray-500);
+}
+
+.footer-nav ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.footer-nav ul li{
+    text-align: center;
+    width: 100%;
+
+    padding: 1em 2em;
+}
+
+.social-media-container{
+    display: flex;
+    gap: 2.5em;
+}
+
+.social-media-container img{
+    width: 100%;
+}
+
+.attribution{
+    font-size: 0.6em;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
