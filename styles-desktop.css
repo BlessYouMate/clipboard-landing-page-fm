@@ -169,10 +169,31 @@
     .footer a:hover{
         color: var(--Green-500);
     }
-    
+
+    .footer .social-media-container img{
+        padding: 0;
+    }
+
     .social-media-container{
         justify-content: flex-end;
+        flex-grow: 0;
         gap: 1em;
+    }
+
+    .icon{
+        transition: 0.3s;
+    }
+
+    .facebook-icon:hover{
+        content: url("./images/icon-facebook-hover.svg");
+    }
+
+    .instagram-icon:hover{
+        content: url("./images/icon-instagram-hover.svg");
+    }
+
+    .twitter-icon:hover{
+        content: url("./images/icon-twitter-hover.svg");
     }
 
     .attribution{

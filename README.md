@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-clipboard-landing-page-_jR3eEXMH3)
 - Live Site URL: [Live Site](https://blessyoumate.github.io/clipboard-landing-page-fm/)
 
 ## My process
